@@ -1,0 +1,656 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+/*header*/
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #4c5b66;
+}
+.imagen1{
+    text-align: start;
+    width: 30%;
+    margin-top: 10px;
+}
+.imagen1 img{
+    height: 60px;
+    width: 170px;
+}
+nav{
+    padding: 0 100px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+nav ul{
+    padding: 15px 100px 0 0;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li{
+    justify-content: space-around;
+}
+
+.inicio button{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background: #4c5b66;
+    border-style: none;
+    font-size: 110%;
+    
+}
+.inicio button:hover{
+    background: #323e45;
+     box-shadow: #286490;
+     box-shadow: gray;
+     border-radius: 15px;
+}
+section{
+    width: 100%;
+    display: flex;
+    background-color: #4c5b66;
+    justify-content: space-evenly;
+    height: 60%;
+    padding: 0 100px;
+}
+.imagen2{
+    text-align: start;
+    width: 20%;
+    margin-left: 110px;
+    margin-top: 70px;
+}
+.imagen2 img{
+    height: 200px;
+    width: 190px;
+}
+.parrafo1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 130px 0;
+    color: white;
+}
+.titulo1{
+    font-size: 400%;
+    color:white;
+    
+}
+.parrafo1 p{
+    padding: 20px 10px;
+    width: 650px;
+}
+.p2{
+    color: rgba(255, 255, 255, 0.383);
+}
+.boton{
+    width: 570px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.boton .shape2{
+    border-bottom: 1px solid #fff;
+}
+.boton1{
+    width: 45%;
+    height: 50px;
+    color: white;
+    background-color: #3e96d2;
+    border-radius:10px ;
+    font-size: 100%;
+    border-color: #4caff0;
+
+}
+.tele{
+    width: 800px;
+    text-align: start;
+}
+.parrafo1 p.shape {
+    text-align: start;
+    width: 5%;
+}
+.logos{
+    display: flex;
+    background-color: #dcdcdc;
+    height: 70px;
+    justify-content: space-around;
+    border-bottom:3px solid #b9b9b9;
+    align-items: center;
+}
+/*body*/
+.mitad{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.contenedor{
+    width: 30%;
+    text-align: center;
+    padding: 100px 20px;
+}
+.contenedor p{
+    padding: 40px;
+    text-align: center;
+}
+.botonContenedor{
+    width: 25%;
+    height: 50px;
+    color: white;
+    background-color: #3e96d2;
+    border-radius:10px ;
+    font-size: 100%;
+    border-color: #4caff0;
+}
+/*bodyPart2*/
+.mitad2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px ;
+    justify-content: center;
+}
+.titulo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    padding: 50px;
+    margin-left: 20px;
+
+}
+.titulo2 img{
+    width: 2%;
+    height: 2%;
+}
+.titulo2 p{
+    align-self: self-end;
+    font-size: 165%;
+    padding: 10px;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    height: 250px;
+}
+.imagenes img{
+    border-style: ridge;
+    border-color:#b9b9b9;
+    border-width: 6px;
+    border-radius: 4px;
+    width: 20%;
+}
+/*bodyPart3*/
+.titulo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    padding: 50px;
+    margin-left: 10px;
+
+}
+.titulo3 .imagen3{
+    width: 5%;
+    height: 5%;
+}
+.titulo3 p{
+    align-self: self-end;
+    font-size: 175%;
+    padding: 12px;
+}
+.mitad3 {
+    display: flex;
+    flex-direction: colum;
+    width: 100%;
+    justify-content: baseline;
+}
+
+.from{
+    width: 50%;
+}
+.texto-from{
+    padding: 20px;
+    display: flex;
+}
+.texto-from a{
+    padding: 20px;
+    display: flex;
+}
+.texto3{
+    padding: 20px;
+}
+.texto3 .ancho{
+    width: 50%;
+}
+.from .imagenes3{
+    border-style: ridge;
+    border-color:#b9b9b9;
+    border-width: 6px;
+    border-radius: 4px;
+    width: 25%;
+    margin-left: 40px ;
+}
+.texto-from .principal{
+    font-size: 25px;
+}
+.mitad3 .from .ultima{
+    padding-top: 10px;
+    padding-left: 60px;   
+    color: #3e96d2;
+}
+.blue{
+    color: #3e96d2;
+}
+.hora{
+    color: rgba(0, 0, 0, 0.384);
+}
+.titulo4{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    padding: 50px;
+}
+.titulo4 .imagen4{
+    width: 10%;
+    height: 8%;
+}
+.titulo4 p{
+    align-self: self-end;
+    font-size: 175%;
+    padding: 12px;
+}
+.twitter{
+    display: flex;
+    flex-direction: colum;
+    width: 50%;
+}
+.twitter .titulo3 img{
+    width: 8%;
+    height: 10%;
+    display: flex;
+    align-self: flex-start;
+}
+.twitter2{
+    display: flex;
+    width: 58%;
+    height: 27%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+.twitter2 .hora{
+    display:flex;
+    flex-direction: column;
+}
+.mitad3 .part2{
+    margin-left: 210px ;
+}
+.mitad3 .from .ultimo{
+    color: #3e96d2;
+    margin-left: 40px;
+}
+.twitter .part2 .ultima2{
+    display: flex;
+    flex-direction: column;
+    color: #3e96d2;
+    padding-bottom: 35px;
+}
+.end {
+   display: flex;
+   flex-direction: row;
+   height: 50%;
+   width: 90%;
+   border-top: 3px solid #b9b9b9c0;
+   padding-left: 20px;
+   justify-content: space-between;
+   padding: 20px;
+   text-align: left;
+   margin: auto;
+}
+.end .copy{
+    display: flex;
+    align-self: start;
+    color: rgba(0, 0, 0, 0.544);
+
+}
+footer .end .imagenesFo{
+    display: flex;
+    align-items: end;
+}
+
+/*media queries*/
+@media screen and (max-width:1279px){
+    .imagen1 img {
+        height: 58px;
+        width: 181px;
+    }
+    .imagen2{
+        width: 31%;
+    }
+    .parrafo1 p {
+        padding: 11px 4px;
+        width: 556px;
+    }
+    .boton {
+        width: 450px;
+        height: 80px;
+    }
+    .titulo2 img {
+        width: 3%;
+        height: 2%;
+    }
+    .titulo2 p {
+        font-size: 161%;
+        padding: 9px;
+    }
+    .titulo3 .imagen3 {
+        width: 7%;
+    }
+    .titulo3 p {
+        font-size: 168%;
+        padding: 11px;
+    }
+    .from .imagenes3{
+        width: 48%;
+        height: 30%;
+    }
+    .texto-from .principal {
+        font-size: 20px;
+        width: 110%;
+    }
+    .texto3 .ancho {
+        width: 118%;
+    }
+    .titulo4 .imagen4 {
+        width: 12%;
+    }
+    .mitad3 .part2 {
+        margin-left: 111px;
+    }
+    .titulo4 p {
+        font-size: 170%;
+        padding: 10px;
+    }
+    .twitter2 {
+        width: 85%;
+        padding-top: 30px;
+    }
+
+}
+@media screen and (max-width:768px){
+    .imagen2 {
+        width: 53%;
+        margin-left: 2px;
+    }
+    .titulo1 {
+        font-size: 261%;
+    }
+    .parrafo1 p {
+        width: 293px;
+    }
+    .boton {
+        padding-top: 62px;
+        width: 281px;
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafo1 {
+        width: 43%;
+        padding: 129px 25px; 
+    }
+    .boton1{
+        width: 52%;
+        font-size: 107%;
+    }
+    .contenedor p {
+        padding: 13px;
+        width: 108%;
+    }
+    .botonContenedor {
+        width: 45%;
+        height: 39px;
+    }
+    .titulo2 img {
+        width: 5%;
+        height: 2%;
+    }
+    .titulo2 p {
+        font-size: 160%;
+        padding: 6px;
+    }
+    .imagenes {
+        width: 102%;
+        height: 154px;
+    }
+    .titulo3{
+        width: 134%;
+    }
+
+    .titulo3 .imagen3 {
+        width: 12%;
+    }
+    .titulo3 p {
+        font-size: 132%;
+        width: 103%;
+    }
+    .texto-from {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .from .imagenes3 {
+        width: 72%;
+        margin-top: -41px
+    }
+    .texto3 {
+        padding: 23px;
+        margin-left: 19px;
+    }
+    .texto-from .principal {
+        margin-bottom: 14px;
+        width: 133%;
+    }
+    .titulo4 .imagen4 {
+        width:22%;
+        padding-top: 42px;
+    }
+    .twitter {
+        width: 58%;
+        margin-right: 78px;
+    }
+    .titulo4 {
+     padding: 10px;
+     margin-left: 42px;
+    
+    }
+    .titulo4 p {
+        font-size: 128%;
+        padding: 2px;
+    }
+    .twitter2 {
+        width: 124%;
+        padding-top: 30px;
+        margin-right: 66px;
+    }
+    .texto3 .ancho {
+        width: 154%;
+    }
+}
+
+@media screen and (max-width:480px){
+   nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen1{
+    text-align: center;
+    width: 30%;
+    margin-top: 30px;
+    }
+    .imagen1 img{
+        margin-top: 60px;
+        width: 170px;
+        margin-left: 70px;
+    }
+    section{
+        display: flex;
+        padding: 0 60px;
+
+    }
+    .imagen2{
+        width: 80%;
+        margin-left: 1px;
+        margin-top: 90px;
+        padding: 0 20px;
+    }
+    .titulo1{
+        font-size: 170%;
+    }
+    .parrafo1 p{
+    padding: 10px 8px;  
+     width: 175px;
+     font-size: 80%;
+     padding-right: 45px;
+    }
+    .boton1{
+        width: 60%;
+        height: 75px;
+        font-size: 80%;
+    }
+    .boton{
+        width: 198px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        padding: 54px 0;
+        justify-content: center;
+        padding-right: 57px;
+    }
+    .tele{
+        font-size: 80%;
+    }
+    .parrafo1 p.shape{
+      padding-left:30px ;
+    }
+    .mitad{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .mitad img{
+        padding-top: 20px;
+        justify-content: center;
+    }
+    .contenedor {
+        padding: 9px;
+        text-align: center;
+        justify-content: center;
+    }
+    .contenedor p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 417px;
+        padding-right: 96px;
+        margin-left: -114px;
+    }
+    .botonContenedor{
+        width: 78%;
+    }
+    .mitad2 .titulo2{
+        padding: 5px;
+        padding-bottom: 15px;
+    }
+    .mitad2 .titulo2 img{
+        width: 6%;
+        height: 6%;
+    }
+    .mitad2 .titulo2 p{
+        font-size: 110%;
+        display: flex;
+    }
+    .mitad2 .imagenes{
+        height: 150px;
+        padding-left: 20px;
+    }
+    .mitad2 .imagenes img{
+        width: 23%;
+        height: 51%;
+    }
+    .titulo3{
+        width: 120%;
+        padding: 25px;
+    }
+    .titulo3 .imagen3{
+        width: 15%;
+        height: 9%;
+    }
+    .titulo3 p{
+     font-size: 128%;
+     padding-bottom: 40px;
+    }
+    .mitad3{
+        display: flex;
+        flex-direction: column;
+    }
+    .from .imagenes3{
+        width: 75%;
+        height: 16%; 
+    }
+    .texto-from .principal {
+        font-size: 20px;
+        width: 170%;
+    }
+    .texto3 {
+       padding: 13px;
+        padding-left: 22px;
+        padding-bottom: 50px;
+    }
+    .texto-from {
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    .texto3 .ancho {
+        width: 216%;
+    }
+    .mitad3 .from .ultima {
+        padding-top: 3px;
+        padding-left: 41px;
+    }
+    .mitad3 .part2 {
+        margin-left: -10px;
+    }
+    .titulo4{
+        width: 224%;
+        padding-bottom: 20px;
+    }
+    .titulo4 .imagen4 {
+        width: 7%;
+    }
+    .titulo4 p{
+        font-size: 136%;
+        padding-top: 52px;
+    }
+    .twitter2{
+        width: 161%;
+    }
+}
